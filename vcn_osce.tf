@@ -97,8 +97,8 @@ resource "oci_core_default_security_list" "default_security_list" {
     stateless = false
 
     tcp_options {
-      min = 22
-      max = 22
+      min = 80
+      max = 80
     }
   }
 
