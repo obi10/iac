@@ -13,5 +13,5 @@ export TF_VAR_compartment_ocid=ocid1.compartment.oc1..aaaaaaaalxo7zindcffskunocl
 
 ### Public/private keys used on the compute instance
 export TF_VAR_host_user_name=opc
-export TF_VAR_ssh_public_key=$(cat /home/junicode/Desktop/test_key.pub)
-export TF_VAR_ssh_private_key=$(cat /home/junicode/Desktop/test_key)
+export TF_VAR_ssh_public_key=$(cat ./ssh/test_key.pub)
+export TF_VAR_ssh_private_key=$(cat ./ssh/test_key)
